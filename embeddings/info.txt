@@ -19,7 +19,7 @@ vowel = vowel/consonant
 phone = phone
 match = correct/incorrect classification
 cat = phone catagory
-
+spec = spectrograms
 
 === LABEL LEGEND ===
 List with the meaning of the colors in the different plots.
