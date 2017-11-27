@@ -1,0 +1,47 @@
+=== NAMING OF THE IMAGES ===
+INPUT_LAYER_LABELSET.png
+
+= INPUT =
+all = zowel klinkers als meddeklinkers
+klk = klinkers
+mk = medeklinkers
+
+= LAYER =
+in = input
+l1 = layer 1
+l2 = layer 2
+l3 = layer 3
+
+ = LABELSET =
+vowel = vowel/consonant
+phone = phone
+match = correct/incorrect classification
+cat = phone catagory
+
+
+=== LABEL LEGEND ===
+List with the meaning of the colors in the different plots.
+
+= LABELS VOWEL =
+blue	vowel
+orange	consonant
+
+= LABELS MATCH =
+blue	correct
+orange	incorrect
+
+= LABELS CAT =
+consonants:
+	dark blue = plosive
+	gray = frictive
+	red = sonant
+vowels:
+	orange = long vocal
+	pink = short vocal
+	light pink = sjwa
+	light blue = diftong
+
+=== SETTINGS ===
+perplexity = 25
+learning rate = 10
+nr of input variables = 1024 
