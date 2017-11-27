@@ -1,3 +1,5 @@
+Set of all the embedding images I got from my network. 
+
 === NAMING OF THE IMAGES ===
 INPUT_LAYER_LABELSET.png
 
