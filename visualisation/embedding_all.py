@@ -45,8 +45,6 @@ f_nodes = data_file.root.features._f_list_nodes()
 print("reading s_nodes")
 s_nodes = data_file.root.spectra._f_list_nodes()
 
-FEATURE_FILE = WORK_DIR + "preprocessing/" + "feature_conv_table.txt"
-
 splice_size=5
 context= 2 * splice_size + 1
 batch_size = 1024
